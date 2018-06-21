@@ -1,0 +1,200 @@
+.container a{
+	text-decoration: none;
+	color: #fff;
+}
+li{list-style: none;
+   }
+#header-logo{
+	background-color: #4b83a6;
+	
+	padding-top: 15px;
+}
+#header-logo h3{
+	float: right;
+	color: #fff;
+}
+#header-menu{
+	background-color: #d7d7d7;
+	height: 42px;
+}
+#header-menu li{
+	float: left;
+	padding: 10px 30px 12px 0px;
+}
+#header-menu a{
+	padding: 10px;
+	color: #3a5362;
+}
+#header-menu a:hover{
+	background: #4d84a6;
+	color: #fff;
+}
+#header-menu a.active{
+	background: #4d84a6;
+	color: #fff;
+}
+#banner{
+	background-color: #4d87ab;
+	padding: 20px 0px;
+}
+#banner .carousel{
+	border: 10px solid white;
+}
+.btcrs{
+	margin-top: 60px;..........
+}
+#banner #myCarousel .carousel-caption{
+	background-color: #4d87ab;...........
+
+}
+#banner .tenant{
+}
+
+.tenant a{
+	float: left;
+	padding: 10px 10px 0px;
+}
+.tenant .btn-tenant{
+	background: #5596be;
+	padding: 10px 20px;
+}
+.tenant .content-tenant{
+	margin-top: 10px;
+	padding-top: 15px;
+	background: #5596be;
+}
+.tenant .btn-owener{
+	background: #c2f2ed;
+	padding: 10px 20px;
+	color: #3a5362;
+}
+.tenant h4{
+	color: #fff;
+	margin-left: 20px;
+}
+.tenant .form-control{
+	border: 2px solid #3a5362;
+	height: 40px;
+	width: 480px;
+}
+.tenant .form-check{
+	color: #fff;
+	margin: 10px 0px 0px 20px;
+}
+.tenant .select{
+	margin: 10px 10px;
+}
+.tenant .select1{
+	margin-left: 50px;
+}
+.tenant .select2{
+	margin-left: 80px;
+}
+.tenant .custom-select{
+	width: 280px;
+	height: 30px;
+}
+.tenant .btn{
+	border: 2px solid #fff;
+	width: 280px;
+	height: 40px;
+	background:#5596be;
+	margin-left: 200px;
+	color: #fff;
+}
+.text-center{
+	background-color: #d9f9f6;
+	text-align: left;
+}
+.content{
+	padding-top: 20px;
+}
+.content img{
+	padding: 0px 0px 40px 0px;
+}
+.contact{
+	background-color: #5b8bac;
+	height: 196px;
+}
+
+.login{
+	border: 1px solid white;
+	background-color: #7cb4d7;
+	padding: 10px 20px;
+	margin-top: 15px;
+}
+.login h3{
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.login button{
+	background-color: #5b9fc8;
+	color: #fff;
+}
+.form-inline{
+	margin-bottom: 10px;
+}
+.signup{
+	background: url(../img/bg2.png);
+	width: 473px;
+	height: 48px;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+.find{
+	border: 1px solid white;
+	background-color: #7cb4d7;
+	padding: 12px 20px;
+	margin-top: 15px;
+}
+.find h3{
+	color: white;
+	margin-top: 10px;
+}
+.find button{
+	background-color: #5b9fc8;
+	color: #fff;
+}
+.link{
+	padding-top: 10px;
+}
+footer{
+	background-color: #4b7d9b;
+	
+	padding-top: 20px;
+}
+.info h4{
+	color: #fff;
+	font-size: 16px;
+}
+.info ul{
+	line-height: 30px;
+	margin-top: 20px;
+}
+.info p{
+	color: #fff;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.info .about h4{
+	margin-left: 40px;
+}
+.info .prop h4{
+	margin-left: 40px;
+}
+@media screen and (max-width: 768px) {
+	.collapse-li ul li{
+		padding: 10px 0px;
+		float: none;
+		background-color: #d7d7d7;
+		padding: 15px;
+	}
+	.navbar-header button{
+		margin:0px 0px;
+		
+		border: 1px solid;
+	}
+}
