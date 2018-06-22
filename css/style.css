@@ -15,11 +15,10 @@ li{list-style: none;
 }
 #header-menu{
 	background-color: #d7d7d7;
-	height: 42px;
 }
 #header-menu li{
 	float: left;
-	padding: 10px 30px 12px 0px;
+	padding: 0px 30px 0px 0px;
 }
 #header-menu a{
 	padding: 10px;
@@ -37,17 +36,11 @@ li{list-style: none;
 	background-color: #4d87ab;
 	padding: 20px 0px;
 }
-#banner .carousel{
+#banner #mycarousel{
 	border: 10px solid white;
 }
 .btcrs{
 	margin-top: 60px;..........
-}
-#banner #myCarousel .carousel-caption{
-	background-color: #4d87ab;...........
-
-}
-#banner .tenant{
 }
 
 .tenant a{
@@ -59,9 +52,10 @@ li{list-style: none;
 	padding: 10px 20px;
 }
 .tenant .content-tenant{
-	margin-top: 10px;
+	margin-top: 8px;
 	padding-top: 15px;
 	background: #5596be;
+	border-radius: 5px;
 }
 .tenant .btn-owener{
 	background: #c2f2ed;
@@ -75,7 +69,6 @@ li{list-style: none;
 .tenant .form-control{
 	border: 2px solid #3a5362;
 	height: 40px;
-	width: 480px;
 }
 .tenant .form-check{
 	color: #fff;
@@ -96,10 +89,10 @@ li{list-style: none;
 }
 .tenant .btn{
 	border: 2px solid #fff;
-	width: 280px;
 	height: 40px;
 	background:#5596be;
-	margin-left: 200px;
+	float: right;
+	margin-right: 100px;
 	color: #fff;
 }
 .text-center{
@@ -114,7 +107,6 @@ li{list-style: none;
 }
 .contact{
 	background-color: #5b8bac;
-	height: 196px;
 }
 
 .login{
@@ -122,6 +114,7 @@ li{list-style: none;
 	background-color: #7cb4d7;
 	padding: 10px 20px;
 	margin-top: 15px;
+	border-radius: 5px;
 }
 .login h3{
 	color: white;
@@ -137,18 +130,18 @@ li{list-style: none;
 }
 .signup{
 	background: url(../img/bg2.png);
-	width: 473px;
-	height: 48px;
+	background-repeat: no-repeat;
 	font-size: 22px;
-	text-align: center;
 	margin-top: 10px;
 	padding-top: 5px;
+	padding-bottom: 30px;
 }
 .find{
 	border: 1px solid white;
 	background-color: #7cb4d7;
 	padding: 12px 20px;
 	margin-top: 15px;
+	border-radius: 5px;
 }
 .find h3{
 	color: white;
@@ -186,15 +179,12 @@ footer{
 	margin-left: 40px;
 }
 @media screen and (max-width: 768px) {
-	.collapse-li ul li{
-		padding: 10px 0px;
+	#header-menu li{
 		float: none;
-		background-color: #d7d7d7;
-		padding: 15px;
-	}
+    }
 	.navbar-header button{
 		margin:0px 0px;
-		
+		background-color: #4d84a6;
 		border: 1px solid;
 	}
 }
