@@ -2,6 +2,9 @@
 	text-decoration: none;
 	color: #fff;
 }
+.container{
+	max-width: 1000px;
+}
 li{list-style: none;
    }
 #header-logo{
@@ -37,12 +40,18 @@ li{list-style: none;
 	padding: 20px 0px;
 }
 #banner #mycarousel{
+	border: 1px solid #4d87ab;
+}
+#mycarousel .carousel-inner{
 	border: 10px solid white;
 }
-.btcrs{
+#mycarousel .btcrs{
 	margin-top: 60px;..........
 }
-
+#mycarousel .item img{
+	max-width: 100%;
+    height: auto;
+}
 .tenant a{
 	float: left;
 	padding: 10px 10px 0px;
@@ -133,9 +142,15 @@ li{list-style: none;
 	background-repeat: no-repeat;
 	font-size: 22px;
 	margin-top: 10px;
+	margin-bottom: 30px;
 	padding-top: 5px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
+	background-position: center center;
+    background-size: cover;
+    border: 1px solid white;
+    border-radius: 5px;
 }
+
 .find{
 	border: 1px solid white;
 	background-color: #7cb4d7;
@@ -178,13 +193,16 @@ footer{
 .info .prop h4{
 	margin-left: 40px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
 	#header-menu li{
 		float: none;
     }
 	.navbar-header button{
 		margin:0px 0px;
-		background-color: #4d84a6;
+		background-color: #4b83a6;
 		border: 1px solid;
+	}
+	.navbar-header .icon-bar{
+		color: red;
 	}
 }
